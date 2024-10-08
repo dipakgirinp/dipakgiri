@@ -1,185 +1,29 @@
+<!DOCTYPE html>
 <html>
   <head>
-    <base href="https://websim.giri.dipak/portfolio/">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DIPAK Giri | About me</title>
-    <script src="https://kit.fontawesome.com/90355a5248.js" crossorigin="anonymous"></script>
+    <title>DIPAK GIRI</title>
     <style>
-      body {
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-        line-height: 1.6;
-        color: #ffffff;
-        max-width: 800px;
-        margin: 0 auto;
-        padding: 20px;
-        background-color: #1b1b1c;
-      }
-      header {
-        text-align: center;
-        padding: 20px 0;
-        background-color: black;
-        color: rgb(254, 254, 254);
-        border-radius: 10px;
-        margin-bottom: 70px;
-      }
-      h1 {
-        margin: 0;
-        font-size: 2.5em;
-      }
-      .profile-pic {
-        width: 200px;
-        height: 200px;
-        object-fit: cover;
-        object-position: top;
-        border-radius: 50%;
-        margin: 20px auto;
-        display: block;
-        border: 5px solid white;
-        box-shadow: 0 0 10px rgba(0,0,0,0.1);
-      }
-      section {
-        background-color: rgb(19, 18, 18);
-        padding: 20px;
-        margin: 50px 0;
-        border-radius: 10px;
-        transition: .5s;
-      }
-      section:hover{
-        box-shadow: 0 0 30px rgba(255, 255, 255, 0.395);
-      }
-      h2 {color: #ffffff;}
-      .skills {
+      .comming-soon{
+        font-family:sans-serif;
         display: flex;
-        flex-wrap: wrap;
-        gap: 10px;
-      }
-      .skill {
-        background-color: #ffffffae;
-        color: rgb(0, 0, 0);
-        padding: 5px 10px;
-        border-radius: 20px;
-        font-size: 0.9em;
-      }
-      .social-links {
-        display: flex;
-        justify-content: center;
-        gap: 40px;
-        margin-top: 30px;
-        padding-bottom: 20;
-      }
-      .social-links a {
-        color: #1c7ad7;
-        text-decoration: none;
-        font-size: 1.7em;
-        transition: color 0.3s ease;
-      }
-      .social-links a:hover {
-        color: #2a70c2;
-      }
-      @keyframes float {
-        0% { transform: translateY(0px); }
-        50% { transform: translateY(-10px); }
-        100% { transform: translateY(0px); }
-      }
-      .floating {
-        animation: float 3s ease-in-out infinite;
-      }
-      .hr{
-        width: 260px;
-      }
-      .connectline{
-        width: 250;
-        margin-top: 30px;
-      }
-
-      iframe { 
-      width: 100%; 
-      height: 100%;
-      z-index: 999;
-      border-radius: 9px;
-      }
-
-      .dino-game{
-        display: flex;
-        flex-direction: column;
-        height:400px;
-        justify-content: center;
-        border-style: solid;
-        border-color: black;
-        border-width: 9;
-        border-radius: 9px;
-        transition: .5s; 
-      }
-
-      .dino-text{
-        text-align: center;
-        background-color: black;
-        display: inline-block;
-        height: 60;
-        display: flex;
-        justify-content: center;
         align-items: center;
-        font-size: large;
-        font-weight: bold;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        height: 500px;
+        width: 500px;
+        font-size: 50px;
+        font-weight: bolder;
+        letter-spacing: 3px;
+        color: white;
       }
 
-      .dino-game:hover{
-        box-shadow: 0px 0px 20px rgba(206, 175, 175, 0.468);
+      body{
+        background-color: black;
       }
     </style>
   </head>
-<body>
-  <header>
-    <h1>DIPAK GIRI</h1><hr class="hr">
-    <p class="subtitle">WEB DEVELOPER</p> 
-  </header>
-  <img src="https://i.ibb.co/8mQpT28/dipak-profile-pic.jpg" alt="dipak pic" class="profile-pic floating">
-  <section>
-    <h2>About Me</h2>
-    <p>Hi there! I'm Dipak, a 16-year-old aspiring web developer with a passion for creating beautiful and functional websites. I'm on an exciting journey to master the art of web development, and I'm thrilled to share my progress with you!</p>
-  </section>
-  <section>
-    <h2>My Skills</h2>
-    <div class="skills">
-      <span class="skill">HTML</span>
-      <span class="skill">CSS</span>
-      <span class="skill">JavaScript (Learning)</span>
-      <span class="skill">Responsive Design</span>
-      <span class="skill">Web Accessibility</span>
-    </div>
-  </section>
-  <section>
-    <h2>Current Projects</h2>
-    <ul>
-      <li>Building my personal portfolio website (You're looking at it!)</li>
-      <li>Creating a responsive landing page for a local business</li>
-      <li>Developing a simple JavaScript game to enhance my programming skills</li>
-    </ul>
-  </section>
-  <section>
-    <h2>Learning Goals</h2>
-    <p>As a young developer, I'm always eager to learn more. Here are some areas I'm focusing on:</p>
-    <ul>
-      <li>Mastering JavaScript and exploring frameworks like React</li>
-      <li>Diving into backend development with Node.js</li>
-      <li>Understanding web security best practices</li>
-      <li>Exploring UI/UX design principles</li>
-    </ul>
-  </section>
-  <section>
-    <h2>Let's Connect!</h2>
-    <p>I'm always excited to connect with fellow developers, mentors, and anyone passionate about web development. Feel free to reach out to me on social media or via email.</p><hr class="connectline">
-    <div class="social-links">
-      <a href="https://instagram.com/dipaakgiri" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-instagram"></i></a>
-      <a href="https://www.facebook.com/DIPAKgiri11" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-facebook"></i></a>
-      <a href="mailto:giridipak070@gmail.com"><i class="fa-regular fa-envelope"></i></a>
-    </div>
-  </section>
-
-  <div class="dino-game">
-    <div class="dino-text">HERE IS A DINO GAME :)</div>
-    <iframe src="https://chromedino.com/" frameborder="0" scrolling="no"></iframe>
-  </div>
-</body>
+  <body>
+    <div class="comming-soon">COMMING SOON..</div>
+  </body>
 </html>
